@@ -1,0 +1,34 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.first {
+  margin-bottom: 4px;
+}
+.one {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.usd {
+  color: grey;
+  font-size: 25px;
+}
+
+.two {
+  margin-bottom: 6px;
+}
+
+.numbers {
+  color: green;
+  font-size: 20px;
+}
+
+.wote {
+  font-size: 18px;
+}
+
+.numberz {
+  color: red;
+}
