@@ -1,0 +1,19 @@
+p {
+  font-family: Arial;
+}
+.shopping {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.apple {
+  text-align: center;
+  font-size: 12px;
+}
+
+.learn {
+  color: blue;
+  text-align: center;
+  font-size: 10px;
+}
