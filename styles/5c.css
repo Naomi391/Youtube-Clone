@@ -1,0 +1,31 @@
+.p {
+  font-family: Verdana;
+}
+
+.html {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.beginner {
+  color: grey;
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.course-description {
+  width: 250px;
+  font-size: 18px;
+}
+
+.start {
+  color: white;
+  background-color: green;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+}
