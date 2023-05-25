@@ -1,0 +1,63 @@
+.back-button {
+  color: rgb(0, 113, 133);
+  transition: 0.15s;
+}
+
+.back-button:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.running {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.dollar {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.delivery {
+  font-size: 18px;
+}
+
+.add-button {
+  cursor: pointer;
+  background-color: rgb(255, 216, 20);
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.15s;
+  transition: opacity 0.15s;
+}
+
+.add-button:hover {
+  background-color: rgb(255, 238, 0);
+}
+
+.add-button:active {
+  opacity: 0.4;
+}
+
+.buy-button {
+  cursor: pointer;
+  background-color: rgb(255, 164, 28);
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.buy-button:hover {
+  background-color: rgb(255, 150, 30);
+}
+
+.buy-button:active {
+  opacity: 0.4;
+}
