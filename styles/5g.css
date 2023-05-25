@@ -1,0 +1,32 @@
+p {
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tweet {
+  margin-bottom: 5px;
+}
+
+.free {
+  font-weight: bold;
+}
+
+.link {
+  color: grey;
+}
+
+.web {
+  width: 600px;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.it {
+  color: rgb(85, 85, 252);
+}
+
+.here {
+  margin-top: 20px;
+}
