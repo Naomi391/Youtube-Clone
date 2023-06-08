@@ -1,0 +1,12 @@
+.thanks {
+  width: 230px;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.yes,
+.no {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
