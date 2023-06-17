@@ -1,0 +1,28 @@
+.req {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+}
+.pickme,
+.dest {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 350px;
+  margin-bottom: 4px;
+}
+
+.request,
+.later {
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.request {
+  background-color: black;
+  color: white;
+  border: none;
+}
