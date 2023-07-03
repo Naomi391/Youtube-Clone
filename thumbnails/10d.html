@@ -1,10 +1,132 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .container {
+        width: 200px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .profile-pic {
+        width: 200px;
+        height: 200px;
+  object-fit: cover;
+  margin-bottom: 12px
+      }
+
+      .name {
+        font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 5px;
+      }
+
+      .mutual-row {
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+
+      .mutual-picture {
+        height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+      }
+
+      
+
+      .bestie {
+        display: inline-block;
+  vertical-align: middle;
+  color: rgb(100, 100, 100);
+      }
+
+      .button{
+        background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+      }
+    </style>
+  </head>
   <body>
-    <img scr="thumbnails/cat1.jpg" />
-    <p>Oliver</p>
-    <p>2 mutual friends</p>
-    <button>Add Friend</button>
+    <div class="container">
+      <img
+        class="profile-pic"
+        src="file:///C:/Users/hp/Desktop/html-css/thumbnails/cat1.jpg"
+      />
+      <p class="name">Oliver</p>
+      <div class="mutual-row">
+        <img
+          class="mutual-picture"
+          src="file:///C:/Users/hp/Desktop/html-css/thumbnails/flower.jpg"
+        />
+        <p class="bestie">2 mutual friends</p>
+      </div>
+
+      <button class="button">Add Friend</button>
+    </div>
+
+    <div class="container">
+      <img
+        class="profile-pic"
+        src="file:///C:/Users/hp/Desktop/html-css/thumbnails/download%20(1).jpg"
+      />
+      <p class="name">Mimi</p>
+      <div class="mutual-row">
+        <img
+          class="mutual-picture"
+          src="file:///C:/Users/hp/Desktop/html-css/thumbnails/flower.jpg"
+        />
+        <p class="bestie">3 mutual friends</p>
+      </div>
+      <button class="button">Add Friend</button>
+      </div>
+      
+
+      
+    </div>
+
+    <div class="container">
+      <img
+        class="profile-pic"
+        src="file:///C:/Users/hp/Desktop/html-css/thumbnails/cat.jpg"
+      />
+      <p class="name">Rex</p>
+      <div class="mutual-row">
+        <img
+          class="mutual-picture"
+          src="file:///C:/Users/hp/Desktop/html-css/thumbnails/flower.jpg"
+        />
+        <p class="bestie">4 mutual friends</p>
+      </div>
+      <button class="button">Add Friend</button>
+      </div>
+       
+
+      
+    
   </body>
 </html>
