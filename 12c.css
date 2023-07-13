@@ -1,0 +1,21 @@
+.fours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.one {
+  background-color: lightpink;
+}
+
+.two {
+  background-color: lightpink;
+}
+
+.three {
+  background-color: lightpink;
+}
+
+.four {
+  background-color: lightpink;
+}
