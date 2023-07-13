@@ -1,0 +1,14 @@
+.flexie {
+  display: flex;
+  flex-direction: row;
+}
+
+.two {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.seventy {
+  width: 75px;
+  background-color: lightpink;
+}
