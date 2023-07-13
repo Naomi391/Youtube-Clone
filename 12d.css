@@ -1,0 +1,17 @@
+.divie {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  align-items: center;
+}
+
+.one {
+  background-color: lightpink;
+}
+
+.two {
+  background-color: lightpink;
+}
