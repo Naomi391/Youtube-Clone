@@ -1,0 +1,93 @@
+.container {
+  position: fixed;
+  height: 3000px;
+}
+
+.profiles {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+}
+
+.img-one {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.img-two {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.img-three {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.information {
+  position: fixed;
+  width: 300px;
+  background-color: rgb(46, 44, 44);
+  top: 0;
+  bottom: 0;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.title {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.add {
+  margin-right: 20px;
+  color: rgb(170, 169, 168);
+  font-size: 20px;
+}
+
+.one {
+  color: rgb(170, 169, 168);
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.two {
+  color: rgb(170, 169, 168);
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.faq {
+  color: rgb(170, 169, 168);
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
