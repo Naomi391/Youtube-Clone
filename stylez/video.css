@@ -1,9 +1,6 @@
-
 .thumbnail {
   width: 100%;
 }
-
-
 
 .thumbnaill {
   width: 300px;
@@ -36,6 +33,7 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
 
 .video-author {
@@ -54,4 +52,20 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-radius: 2px;
+  bottom: 8px;
+  right: 5px;
+  position: absolute;
 }
