@@ -1,0 +1,49 @@
+body {
+  height: 3000px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.dress {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.discount {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.carton {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: black;
+}
